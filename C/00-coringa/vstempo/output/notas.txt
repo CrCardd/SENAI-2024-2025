@@ -1,0 +1,35 @@
+cristian
+[ Matematica ]:	67
+[ Portugues ]:	60
+[ Artes ]:	99
+[ Educação fisíca ]:	92
+
+
+dudu
+[ Matematica ]:	97
+[ Portugues ]:	73
+[ Artes ]:	63
+[ Educação fisíca ]:	62
+
+
+kau ane
+[ Matematica ]:	66
+[ Portugues ]:	62
+[ Artes ]:	67
+[ Educação fisíca ]:	89
+
+
+hilini
+[ Matematica ]:	66
+[ Portugues ]:	80
+[ Artes ]:	88
+[ Educação fisíca ]:	91
+
+
+karlla
+[ Matematica ]:	92
+[ Portugues ]:	62
+[ Artes ]:	79
+[ Educação fisíca ]:	79
+
+

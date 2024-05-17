@@ -1,0 +1,14 @@
+cristian
+[ Matematica ]:	144
+[ Portugues ]:	127
+[ Artes ]:	77
+[ Educação fisíca ]:	88
+
+
+wallace
+[ Matematica ]:	100
+[ Portugues ]:	113
+[ Artes ]:	112
+[ Educação fisíca ]:	145
+
+

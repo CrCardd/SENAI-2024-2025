@@ -1,0 +1,38 @@
+
+Foi utilizado apenas o Visual Studio Code, então não posso afirmar que funciona 100% em outros programas.
+
+Versão do pyhton: 3.12.0
+
+
+Arquivo/Jogo principal: (maior garantia que não há bugs e com comentários explicando o desenvolvimento da lógica)
+- DiceminoFinalBeta.py
+
+
+Arquivos/Jogos Extras: (menor garantia que não possua erros)
+- TabelaSimplesSemDefinição.py 
+- TabelaSimplesComOGabaritoGrudado.py 
+- TabelaPequena.py
+
+Arquivo com a lógica utilizada para criar o código final:
+- LógicaDeFuncionamento.py
+
+
+
+
+	Houveram diversos testes, acredito que não há nenhum tipo de bug, se houver é provável que seja apenas nas versões
+variantes, mas caso ocorra ele raramente deve se repetir com frequência.
+	Decidi criar esse pequeno projeto quando não consegui resolver dentro do tempo estipulado o desafio na dinâmica
+da etapa dois do processo seletivo, recriei o desafio em casa e achei muito divertido a resolução dele. Então desenvolvi
+esse código após contar a meu professor sobre como foi a dinâmica realizada e ele me desafiar a recriá-lo dentro de um
+programa e desenvolver a lógica por trás dele, para então poder jogá-lo sempre que quiser sem precisar de um jogo de dominó
+e dados.
+	Espero que goste, acredito que muitas coisas poderiam ser otimizadas, fiz com o conhecimento que possuo atualmente e
+sem ajuda de outros ou da internet.
+	Planejo melhorá-lo no futuro.
+
+
+
+
+
+Crisitan Rodrigues Cardoso
+26 / 11 / 2023
