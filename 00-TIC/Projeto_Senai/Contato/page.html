@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Automático</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Contato</h1>
+    <a href="../Menu/page.html">VOLTAR</a>
+    <h2>Insira os dados iniciais.</h2>
+
+    <!-- <label for="nome">Seu nome:</label> -->
+    <input type="text" id="nome" placeholder="Digite seu nome">
+
+    <br><br>
+
+    <!-- <label for="mensagem">Observações:</label> -->
+    <textarea id="mensagem" placeholder="Digite suas observações"></textarea>
+
+    <br><br>
+
+    <button onclick="conferirMensagemWhatsApp()">Conferir mensagem</button>
+
+    <br><br>
+
+    <p>Nome:  <span id="confNome"></span></p>
+    <p>Observações:  <span id="confMsg"></span></p>
+    <p>Data:  <span id="confDate"></span></p>
+
+    <br><br>
+
+    <button onclick="enviar()">Enviar mensagem</button>
+
+</body>
+</html>
