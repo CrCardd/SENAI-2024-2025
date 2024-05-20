@@ -1,0 +1,25 @@
+
+
+
+
+marca of the veiculo: asd
+year of the veiculo: Hours and minutes (format: HH:MM):
+
+>>>  >>  egistasd
+color of the veiculo: asd
+placa of the veiculo: ads
+nmodelo of the veiculo: ads
+name of the owner: asd asd
+age of the owner: 2
+12?12
+
+
+
+marca of the veiculo: vcv
+year of the veiculo: cvcv
+color of the veiculo: vcvc
+placa of the veiculo: vcv
+nmodelo of the veiculo: cv
+name of the owner: vcv cvc
+age of the owner: 2023
+01:10
