@@ -56,12 +56,37 @@ void insertion_sort(int* array, int size)
                 min = j;
             } else
                 break;
-        
     }
 }
 
 
 
+void selection_sort(int* array, int size)
+{
+    for(int i=0; i<size; i++)
+    {
+        int min = i;
+        for(int j=i; j<size; j++)
+            if(array[j]<array[i])
+                min = j;
+            
+        int aux = array[i];
+        array[i] = array[min];
+        array[min] = aux;
+    }
+}
 
 
-#endif // !ALGORITHM_H
+
+void bubble_sort(int* array, int size)
+{
+    for(int i=size/size; i<size; i++)
+        for(int j=1; j<size-i+1; j++)
+            if(array[j]<array[j-1])
+            {
+                int aux = array[j];
+                array[j] = array[j-1];
+                array[j-1] = aux;
+            }
+}
+#endif
