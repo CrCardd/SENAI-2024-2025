@@ -18,22 +18,17 @@ void merge_sort(int * array, int start, int end)
     int step = 0;
 
     while(first<=mid && second<=end)
-    {
-      
         if(array[first]<array[second])
             copy[step++] = array[first++];
         else
             copy[step++] = array[second++];
-    }
 
     while (first <= mid)
         copy[step++] = array[first++];
     
-
     while (second <= end)
         copy[step++] = array[second++];
     
-
     for(int i=0; i<(end - start + 1); i++)
         array[start+i] = copy[i];
  

@@ -16,22 +16,18 @@ void merge_sort(int * array, int start, int end)
     int second = mid +1;
     int step = 0;
 
-    while(first<=mid && second<=end){
-      
-        if(array[first]<array[second]){
+    while(first<=mid && second<=end)
+    {
+        if(array[first]<array[second])
             copy[step++] = array[first++];
-        } else{
+        else
             copy[step++] = array[second++];
-        }
     }
-    printf("\n");
-    while (first <= mid) {
+    while (first <= mid)
         copy[step++] = array[first++];
-    }
 
-    while (second <= end) {
+    while (second <= end) 
         copy[step++] = array[second++];
-    }
     
     for(int i=0; i<(end - start + 1); i++)
         array[start+i] = copy[i];
