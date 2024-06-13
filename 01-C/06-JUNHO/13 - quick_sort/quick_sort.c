@@ -1,44 +1,36 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-void merge_sort(int * array, int start, int end)
+void quick_sort(int* array, int start, int end)
 {
-    if(end <= start)   
+    if(end <= start)
         return;
-    
-    int mid = start+(end-start)/2;
 
-    merge_sort(array,start, mid);
-    merge_sort(array, mid+1, end);
+    int pivot = start;
+    int i = start+1;
+    int j = start+1;
 
-    int * copy = malloc((end-start+1) * sizeof(int));
-    int first = start;
-    int second = mid +1;
-    int step = 0;
+    while(i<=end+1)
+    {
 
-    while(first<=mid && second<=end)
-        if(array[first]<array[second])
-            copy[step++] = array[first++];
-        else
-            copy[step++] = array[second++];
+        if(array[i] < array[pivot])
+        {
+            int aux = array[i];
+            array[i] = array[j];
+            array[j++] = aux;
+        }
+        i++;
+    }
+    int aux = array[pivot];
+    array[pivot] = array[j-1];
+    array[j-1] = aux;
 
-    while (first <= mid)
-        copy[step++] = array[first++];
-
-    while (second <= end) 
-        copy[step++] = array[second++];
-    
-    for(int i=0; i<(end - start + 1); i++)
-        array[start+i] = copy[i];
- 
-    free(copy);
+    quick_sort(array, start, j-2);
+    quick_sort(array, j, end);
 }
-
 
 
 int main()
 {
-
     int A[10000] = 
     {
     1828, 1240, 3218, 3030,  303, 2823, 3584, 9090,  558, 4527,
@@ -1041,14 +1033,15 @@ int main()
     5714, 1858, 8827, 7430, 3939, 5385, 3712, 6204, 9102, 4736,
     2052,  962, 9005, 9455, 3220, 5307, 6595,  514, 7257, 3191,
     5690, 2721,  801, 5652, 8114,   30, 5648, 4110, 8502, 9502
-};
-   
-   
+    };
+    
     int size = sizeof(A)/sizeof(A[0]);
+    
+    quick_sort(A, 0, size-1);
 
-    merge_sort(A,0,size-1);
-
+    printf("\n\n\n");
     for(int i=0; i<size; i++)
-        printf("[%d]\t",A[i]);
+        printf("%d\t",A[i]);
+
     
 }
